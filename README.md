@@ -1,5 +1,4 @@
-# hd22_queue
-Hackduke 2022 Project
+# Peek-A-Queue
 ## Set up
 - Install Node.js and npm
 - start development server
@@ -10,7 +9,7 @@ Hackduke 2022 Project
     ```
 # Project Explanation
 ## Inspiration
-The queue at Duke student mail center can drive you crazy. There are some hours when there¡¯s only a few people in the queue, while other times you will have to wait up to 50 minutes to get your package. Even worse, these hours fluctuate drastically from week to week. This makes it very hard for students to visit the mail center at the right time in between classes to pick up a potentially urgently-needed package, especially since the mail center does not open during weekends. 
+The queue at Duke student mail center can drive you crazy. There are some hours when thereÂ¡Â¯s only a few people in the queue, while other times you will have to wait up to 50 minutes to get your package. Even worse, these hours fluctuate drastically from week to week. This makes it very hard for students to visit the mail center at the right time in between classes to pick up a potentially urgently-needed package, especially since the mail center does not open during weekends. 
 
 ## What it does
 Our web app has three main functions. Students can check the real time length of the line in the mailing center, check historical data, and contribute their estimation of queue length if they are lining up at the moment.
@@ -23,7 +22,7 @@ Every student has a one-time free access to view historical or real time data. I
 
 ## How we built it
 
-We first designed the homepage, dashboard page, and the database. We then split up our work into frontend and backend. We built an API that allows user¡¯s netid, timestamp, and position in queue to be added to the database. For the homepage, we aimed for a user-friendly design, where the user can either submit the default value as an estimate of their position, use the ¡°+1¡± and ¡°-1¡± buttons to count their position one-by-one, or input their value in the text field. After hitting submit, they will be asked for their netid to track their contribution. For the dashboard page, we fetch from the database the real-time data of how long the queue is and the approximate wait time. We also generate a graph that visualizes the fluctuations in average queue length by hour of day or day of week.
+We first designed the homepage, dashboard page, and the database. We then split up our work into frontend and backend. We built an API that allows userÂ¡Â¯s netid, timestamp, and position in queue to be added to the database. For the homepage, we aimed for a user-friendly design, where the user can either submit the default value as an estimate of their position, use the Â¡Â°+1Â¡Â± and Â¡Â°-1Â¡Â± buttons to count their position one-by-one, or input their value in the text field. After hitting submit, they will be asked for their netid to track their contribution. For the dashboard page, we fetch from the database the real-time data of how long the queue is and the approximate wait time. We also generate a graph that visualizes the fluctuations in average queue length by hour of day or day of week.
 
 
 
@@ -34,7 +33,7 @@ One challenge of our product is how to incentivize users to make contributions. 
 
 ## Accomplishments that we're proud of
 
-We successfully deployed a full stack web app, with a user-friendly frontend design that adds a user¡¯s timestamp, netid, and position in queue to the database, and a functional backend that generates a graph that helps you visualize the fluctuations in average queue length by hour of day or day of week.
+We successfully deployed a full stack web app, with a user-friendly frontend design that adds a userÂ¡Â¯s timestamp, netid, and position in queue to the database, and a functional backend that generates a graph that helps you visualize the fluctuations in average queue length by hour of day or day of week.
 
 ## What we learned
 
